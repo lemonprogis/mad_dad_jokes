@@ -92,11 +92,14 @@ class _HomeScreenState extends State<HomeScreen> {
           if (jokeProvider.isRequestError) {
             return RequestError();
           }
-          return Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
+          return Center(
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
                 _renderFlipCard(themeContext, jokeProvider),
-              ]);
+              ]));
         })));
   }
 }

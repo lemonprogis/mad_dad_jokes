@@ -25,10 +25,10 @@ class MadDadJokeApp extends StatelessWidget {
             ),
             elevation: 0,
           ),
-          scaffoldBackgroundColor: Colors.white30,
+          scaffoldBackgroundColor: Colors.black12,
           primaryColor: Colors.deepOrange,
-          secondaryHeaderColor: Colors.grey,
-          backgroundColor: Colors.deepOrange,
+          secondaryHeaderColor: Colors.lightBlue.shade300,
+          backgroundColor: Colors.black45,
           visualDensity: VisualDensity.adaptivePlatformDensity,
           colorScheme:
               ColorScheme.fromSwatch().copyWith(secondary: Colors.white),
