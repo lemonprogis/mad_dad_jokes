@@ -50,7 +50,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.lemonprogis.mad_dad_jokes"
+        applicationId "com.ejbtechsolutions.maddadjokes"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1

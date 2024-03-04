@@ -1,4 +1,4 @@
-package com.lemonprogis.mad_dad_jokes
+package com.ejbtechsolutions.maddadjokes
 
 import io.flutter.embedding.android.FlutterActivity
 

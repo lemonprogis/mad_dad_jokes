@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lemonprogis.mad_dad_jokes">
+    package="com.ejbtechsolutions.maddadjokes">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="Mad Dad Jokes"
